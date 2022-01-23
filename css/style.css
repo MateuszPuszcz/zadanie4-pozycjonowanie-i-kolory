@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    background-color: gray;
+    width: 500px;
+    height: 800px;
+    display: flex;
+    direction: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.item {
+    flex-basis: 30%;
+    display: flex;
+    border: 1px solid white;
+    padding: 20px;
+}
+.item:nth-of-type(1) {
+    background-color: red;
+}
+.item:nth-of-type(2) {
+    background-color: blue;
+}
+.item:nth-of-type(3) {
+    background-color: green;
+}
+.item:nth-of-type(4) {
+    background-color: yellow;
+}
+.item:nth-of-type(5) {
+    background-color: black;
+}
+.item:nth-of-type(6) {
+    background-color: orange;
+}
+.item:nth-of-type(7) {
+    background-color: purple;
+}
+.item:nth-of-type(8) {
+    background-color: gray;
+}
+.item:nth-of-type(9) {
+    background-color: pink;
+}
+.circle { 
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid black;
+    position: sticky;
+}
+#pink {
+    background-color: pink;
+}
+#gray {
+    background-color: gray;
+}
+#purple {
+    background-color: purple;
+}
+#green {
+    background-color: green;
+}
+#red {
+    background-color: red;
+}
+#blue {
+    background-color: blue;
+}
+#orange {
+    background-color: orange;
+}
+#yellow {
+    background-color: yellow;
+}
+#black {
+    background-color: black;
+}
